@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 336px;
+    margin: 70px auto;
+    border-radius: 10px;
+    height: max-content;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+}
+
+.bar {
+    width: 100%;
+    height: 36px;
+    background-color: #FFDC40;
+    border-radius: 10px 10px 0 0;
+}
+
+.bar:hover {
+    transition: 0.5s;
+    background-color: teal;
+}
+
+.container {
+    padding: 4% 8%;
+}
+
+h2 {
+    color: #9953F1;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2:hover {
+    font-size: 35px;
+    transition: 0.5s;
+    animation-duration: 4s;
+    animation-name: example;
+}
+
+@keyframes example {
+    from {color: #9953F1;}
+    to {color: teal;}
+}
+
+.sort-btn {
+    border: none;
+    cursor: pointer;
+    margin-left: 240px;
+    background-color: initial;
+}
+
+.sort-btn svg:hover *{
+    fill: #833AE0;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 500px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul:hover {
+    box-shadow: 2px 2px 4px 4px #C4C4C4;
+}
+
+.del-btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: relative;
+    top: 8px;
+    right: 6px;
+    background-color: initial;
+}
+
+.del-btn svg:hover *{
+    fill: #833AE0;
+}
+
+.add-btn {
+    width: 60%;
+    display: flex;
+    border-radius: 70px;
+    flex-direction: row;
+    justify-content: start;
+    margin: 50px auto 20px auto;
+    background-color: #833AE0;
+}
+
+.add-btn .plus {
+    height: 35px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #9953F1;
+}
+
+.add-btn .btn-name {
+    margin: auto;
+    color: white;
+}
+
+.add-btn:hover {
+    width: 75%;
+    transition: 0.5s;
+    box-shadow: 0 0 0 4px #FFDC40;
+    background: linear-gradient(90deg, #833AE0, teal);
+}

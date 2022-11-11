@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./sytle.css">
+    <title>To do list</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="bar"></div>
+        <div class="container">
+            <h2>To-Do List</h2>
+            <button class="sort-btn">
+                <svg width="27" height="27" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2.5" width="2.5" height="12.5" fill="#C4C4C4" />
+                    <rect x="10" y="3.75" width="2.5" height="7.5" transform="rotate(-90 10 3.75)" fill="#C4C4C4" />
+                    <rect x="10" y="8.75" width="2.5" height="10" transform="rotate(-90 10 8.75)" fill="#C4C4C4" />
+                    <rect x="10" y="13.75" width="2.5" height="15" transform="rotate(-90 10 13.75)" fill="#C4C4C4" />
+                    <path d="M3.75 15L0.502405 10.3125L6.9976 10.3125L3.75 15Z" fill="#C4C4C4" />
+                </svg>
+            </button>
+
+            <ul class="todo-list"> </ul>
+
+            <div class="add-btn">
+                <div><button class="plus"> + </button></div>
+                <div class="btn-name"> Add To-Do </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
